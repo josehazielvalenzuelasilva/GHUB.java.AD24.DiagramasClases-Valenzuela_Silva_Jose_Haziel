@@ -1,0 +1,25 @@
+<mxfile host="65bd71144e">
+    <diagram name="Página-1" id="tTam4y3KhYwzT7uzU9bh">
+        <mxGraphModel dx="532" dy="169" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="tPJaV_hw21Dqe6nmjoAO-1" value="Empleado" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="700" width="200" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="tPJaV_hw21Dqe6nmjoAO-2" value="- id: &lt;span class=&quot;hljs-keyword&quot;&gt;int&lt;/span&gt;&amp;nbsp;&lt;br&gt;- salario: &lt;span class=&quot;hljs-keyword&quot;&gt;double&lt;/span&gt;&amp;nbsp;&lt;br&gt;- maxHorasPorSemana: &lt;span class=&quot;hljs-keyword&quot;&gt;int&lt;br&gt;- seguridadSocial: boolean&lt;br&gt;- seguroContratado: boolean&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tPJaV_hw21Dqe6nmjoAO-1" vertex="1">
+                    <mxGeometry y="26" width="200" height="84" as="geometry"/>
+                </mxCell>
+                <mxCell id="tPJaV_hw21Dqe6nmjoAO-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="tPJaV_hw21Dqe6nmjoAO-1" vertex="1">
+                    <mxGeometry y="110" width="200" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="tPJaV_hw21Dqe6nmjoAO-4" value="+ &lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;setSalario&lt;/span&gt;(): &lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt;&amp;nbsp;&lt;br&gt;+ &lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;setMaxHorasTrabajo&lt;/span&gt;(): &lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt;&amp;nbsp;&lt;br&gt;+ &lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;mostrarDatos&lt;/span&gt;(): &lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt;&amp;nbsp;&lt;br&gt;+ &lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;darAltaSeguridadSocial&lt;/span&gt;(): &lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt;&amp;nbsp;&lt;br&gt;+ &lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;darBajaSeguridadSocial&lt;/span&gt;(): &lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt;&amp;nbsp;&lt;br&gt;+ &lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;contratarSeguro&lt;/span&gt;(): &lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt;&lt;br&gt;+ &lt;span class=&quot;hljs-title function_ invoke__&quot;&gt;cancelarSeguro&lt;/span&gt;(): &lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="tPJaV_hw21Dqe6nmjoAO-1" vertex="1">
+                    <mxGeometry y="118" width="200" height="112" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;span style=&quot;color: rgb(84, 82, 81); font-family: Montserrat, Arial, Helvetica, sans-serif; font-size: 16px; text-align: left; background-color: rgb(248, 249, 250);&quot;&gt;9. Diseñar una clase en la que se pueda representar un empleado de una compañía, definido por un número entero ID, un salario y el número máximo de horas de trabajo por semana. Los servicios de las clase debe proporciomar que ingrese datos de un nuevo empleado, visualizar sus datos existentes y tener capacidad para procesar las operaciones necesarias para dar de alta o baja en la seguridad social y en los seguros contratados por la compañía.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="255" y="590" width="670" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
